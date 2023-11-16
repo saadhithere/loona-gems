@@ -7,7 +7,7 @@ export default function Footer() {
              <nav>
                 <ul className="flex">
                     <li>
-                        <Link href="https://www.instagram.com/malangfilms/" target="_blank">
+                        <Link href="https://instagram.com/loonagems" target="_blank">
                             <img src="/instagram.png" alt="Instagram" className="h-6 w-6 cursor-pointer hover:opacity-75" />
                         </Link>
                     </li>
@@ -22,12 +22,12 @@ export default function Footer() {
                         </Link>
                     </li> */}
                     <li>
-                        <Link href="https://www.tiktok.com/@malangfilms" target="_blank">
+                        <Link href="https://www.tiktok.com/@loonajems" target="_blank">
                             <img src="/tiktok.png" alt="tiktok" className="h-6 w-6 cursor-pointer hover:opacity-75 ml-4" />
                         </Link>
                     </li>
                     <li>
-                        <Link href="https://wa.me/message/KMKTK5VNF3LAP1" target="_blank">
+                        <Link href="" target="_blank">
                             <img src="/whatsapp.png" alt="whatsapp" className="h-6 w-6 cursor-pointer hover:opacity-75 ml-4" />
                         </Link>
                     </li>
