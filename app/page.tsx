@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/header';
-import GetCast from './components/GetCast';
+// import ShopNow from './components/ShopNow';
 import Footer from './components/Footer';
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
             <span className="text-2xl lg:text-4xl">Welcome to</span> Loona <span className="lg:text-4xl">Gems</span>
           </p>
           <div className="flex flex-col justify-center items-center mt-8 md:flex-row md:justify-center md:items-center">
-            {/* <GetCast /> */}
+            {/* <ShopNow /> */}
           </div>
         </div>
       </div>

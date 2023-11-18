@@ -5,7 +5,7 @@ interface Props {
   black?: boolean;
 }
 
-export default function GetCast({ small, black }: Props) {
+export default function ShopNow({ small, black }: Props) {
   const buttonClass = small ? "p-1 px-4" : "py-3 px-6 md:py-4 md:px-8 w-full md:w-auto text-2xl md:text-xl";
   const buttonText = "Shop Now";
   const buttonColor = black ? "bg-black text-white" : "bg-white text-black";

@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import GetCast from './GetCast';
+import ShopNow from './ShopNow';
 
 export default function Header() {
     return (
@@ -22,7 +22,7 @@ export default function Header() {
                     <Link href="/talent" className="text-md font-bold text-gray-500 hover:text-gray-600 mr-4 md:mr-8">
                         Talent
                     </Link> */}
-                    <GetCast small black/>
+                    <ShopNow small black/>
                 </div>
             </nav>
         </header>
