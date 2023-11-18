@@ -16,12 +16,9 @@ export default function Header() {
             </Link>
             <nav>
                 <div className="flex justify-center items-center">
-                    {/* <Link href="/shows" className="text-md font-bold text-gray-500 hover:text-gray-600 mr-4 md:mr-8">
-                        Shows
+                    <Link href="/blog" className="text-md font-bold text-gray-500 hover:text-gray-600 mr-4 md:mr-8">
+                        Blog
                     </Link>
-                    <Link href="/talent" className="text-md font-bold text-gray-500 hover:text-gray-600 mr-4 md:mr-8">
-                        Talent
-                    </Link> */}
                     <ShopNow small black/>
                 </div>
             </nav>
