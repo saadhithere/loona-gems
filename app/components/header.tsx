@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-// import GetCast from './GetCast';
+import GetCast from './GetCast';
 
 export default function Header() {
     return (
@@ -15,15 +15,15 @@ export default function Header() {
                 </div>
             </Link>
             <nav>
-                {/* <div className="flex justify-center items-center">
-                    <Link href="/shows" className="text-md font-bold text-gray-500 hover:text-gray-600 mr-4 md:mr-8">
+                <div className="flex justify-center items-center">
+                    {/* <Link href="/shows" className="text-md font-bold text-gray-500 hover:text-gray-600 mr-4 md:mr-8">
                         Shows
                     </Link>
                     <Link href="/talent" className="text-md font-bold text-gray-500 hover:text-gray-600 mr-4 md:mr-8">
                         Talent
-                    </Link>
+                    </Link> */}
                     <GetCast small black/>
-                </div> */}
+                </div>
             </nav>
         </header>
     );
